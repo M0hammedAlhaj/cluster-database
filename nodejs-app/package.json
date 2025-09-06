@@ -1,0 +1,10 @@
+{
+  "name": "pg-batch-insert",
+  "version": "1.0.0",
+  "main": "yourscript.js",
+  "dependencies": {
+    "pg": "^8.11.1",
+    "uuid": "^9.0.1",
+    "pg-copy-streams": "^6.0.5"
+  }
+}
