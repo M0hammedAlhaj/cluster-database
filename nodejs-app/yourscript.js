@@ -30,7 +30,7 @@ async function waitForDatabase() {
 
 const TOTAL_USERS = 100_000_000;
 const BATCH_SIZE = 10_000; // Much smaller batches to prevent memory issues
-const CONCURRENCY = 50; // More concurrent connections with smaller batches
+const CONCURRENCY = 100; // More concurrent connections with smaller batches
 
 function randomState() {
   const states = ['active', 'inactive', 'pending'];
